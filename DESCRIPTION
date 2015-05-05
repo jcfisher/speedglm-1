@@ -1,0 +1,12 @@
+Package: speedglm
+Type: Package
+Title: Fitting Linear and Generalized Linear Models to Large Data Sets.
+Version: 0.3
+Date: 2015-03-27
+Author: Marco Enea, with contributions from Ronen Meiri and Tomer Kalimi
+Maintainer:  Marco Enea <emarco76@libero.it>
+Depends: Matrix, stats, MASS
+Description: Fitting linear models and generalized linear models to large data sets by updating algorithms.
+License: GPL
+LazyLoad: yes
+
