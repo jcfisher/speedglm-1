@@ -63,7 +63,8 @@ summary.speedglm <-
                     "ngoodobs","logLik","RSS","rank"), names(object), 0)
     
     ans <- c(object[keep], list(coefficients = param, dispersion = dispersion, 
-                                correlation = correlation, cov.unscaled = inv, cov.scaled = inv * var_res ))
+                                correlation = correlation, cov.unscaled = inv, cov.scaled = inv * var_res,
+                                df.residual = length(ok) - rank))
     
     if (correlation) {         
       ans$correl <- ( inv * var_res)/outer(na.omit(se_coef), na.omit(se_coef))
