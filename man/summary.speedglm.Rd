@@ -29,7 +29,7 @@
 }
 \value{
   \item{coefficients}{the matrix of coefficients, standard errors, z-statistics and two-side p-values.}
-  \item{df.residual}{the component from object.}
+  \item{df}{the component from object (equivalent to df.residual in base::glm).}
   \item{df.null}{the component from object.}
   \item{null.deviance}{the component from object.}
   \item{deviance}{the component from object.}
